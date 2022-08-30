@@ -1,5 +1,8 @@
 package Test;
- //接口1
+
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
+//接口1
 interface Ishape1{
     void draw();//抽象方法
 }

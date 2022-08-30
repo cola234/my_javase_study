@@ -8,7 +8,7 @@ interface Ishape{
     int size = 10;//默认都用public static final修饰 必须初始化 不管加或不加
 
     public abstract void draw();//只能有抽象的方法
-    default public void draw1(){//加default可以使用具体的方法
+    default void draw1(){//加default可以使用具体的方法
         System.out.println("Ishaop::draw1");
     }
     public static void func(){//静态方法也可以存在
